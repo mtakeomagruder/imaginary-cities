@@ -1,0 +1,7 @@
+# Imaginary Cities Image Engine
+
+Imaginary Cities is an arts-humanities research project that considers how large digital repositories of historic cultural materials can be used to create new born-digital artworks and real-time experiences which are relevant and exciting to 21st century audiences. The project will take images and associated metadata of pre-20th century urban maps drawn from the British Library’s online “1 Million Images from Scanned Books” digital collection on Flickr Commons and transform this material into provocative fictional cityscapes for the Information Age.
+
+The project will exemplify collaborative and interdisciplinary research as it will bring together contemporary arts practice, digital humanities scholarship and advanced visualization technology. The project’s outcomes will encompass both artistic and scholarly outputs, most important of which will be a set of prototype digital artworks that will exist as physical installations constructed with leading-edge processes including generative systems, real-time virtual environments and 3D printing. Blending the historical and the contemporary, the informative and the aesthetic, these artworks will not only draw from and feed into the British Library’s digital scholarship and curatorial programs, but more significantly, will engender new ways for members of the general public to discover and access the Library’s important digital collections and research initiatives.
+
+http://blogs.bl.uk/digital-scholarship/2016/10/imaginary-cities-bl-labs-project.html

@@ -1,0 +1,41 @@
+# Final output width
+outWidth: 8192
+
+imageList:
+  #-----------------------------------------------------------------------------
+  - name: london
+    fileName: london-11010962736.jpg
+
+    cropLeft: 335
+    cropTop: 550
+    cropWidth: 5168
+    cropHeight: 3792
+
+    rectangle: 2048
+    permutationStep: 8
+
+    filterList:
+      - type: unsharpmask
+        stddev: 10
+        scale: 10
+      - type: contrast
+        intensity: 1.35
+
+  #-----------------------------------------------------------------------------
+  - name: paris
+    fileName: paris-11097701034.jpg
+
+    cropLeft: 623
+    cropTop: 158
+    cropWidth: 3408
+    cropHeight: 2704
+
+    rectangle: 2048
+    permutationStep: 8
+
+    filterList:
+      - type: unsharpmask
+        stddev: 10
+        scale: 10
+      - type: contrast
+        intensity: 1.35
