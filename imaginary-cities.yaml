@@ -1,10 +1,34 @@
+# Database connection info
+pgHost: localhost
+pgDatabase: icities
+pgUser: icities_etl
+pgPassword: icities_etl
+
 # Final output width
-outWidth: 8192
+outWidth: 1024
 
 imageList:
   #-----------------------------------------------------------------------------
+  - name: chicago
+    flickrId: 11107522893
+
+    cropLeft: 163
+    cropTop: 70
+    cropWidth: 2480
+    cropHeight: 3912
+
+    rectangle: 832
+
+    filterList:
+      - type: unsharpmask
+        stddev: 10
+        scale: 10
+      - type: contrast
+        intensity: 1.35
+
+  #-----------------------------------------------------------------------------
   - name: london
-    fileName: london-11010962736.jpg
+    flickrId: 11010962736
 
     cropLeft: 335
     cropTop: 550
@@ -12,7 +36,24 @@ imageList:
     cropHeight: 3792
 
     rectangle: 2048
-    permutationStep: 8
+
+    filterList:
+      - type: unsharpmask
+        stddev: 10
+        scale: 10
+      - type: contrast
+        intensity: 1.35
+
+  #-----------------------------------------------------------------------------
+  - name: newyork
+    flickrId: 11062471656
+
+    cropLeft: 531
+    cropTop: 180
+    cropWidth: 3872
+    cropHeight: 2824
+
+    rectangle: 2128
 
     filterList:
       - type: unsharpmask
@@ -23,7 +64,7 @@ imageList:
 
   #-----------------------------------------------------------------------------
   - name: paris
-    fileName: paris-11097701034.jpg
+    flickrId: 11097701034
 
     cropLeft: 623
     cropTop: 158
@@ -31,7 +72,6 @@ imageList:
     cropHeight: 2704
 
     rectangle: 2048
-    permutationStep: 8
 
     filterList:
       - type: unsharpmask
